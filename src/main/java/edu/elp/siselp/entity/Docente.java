@@ -24,4 +24,11 @@ public class Docente extends Persona{
     public void setCodDocente(String codDocente) {
         this.codDocente = codDocente;
     }
+
+    @Override
+    public String toString() {
+        return "Docente{" +
+                "codDocente='" + codDocente + '\'' +
+                '}';
+    }
 }
